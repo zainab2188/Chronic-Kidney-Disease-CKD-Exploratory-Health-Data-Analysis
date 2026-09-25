@@ -1,6 +1,6 @@
-Chronic Kidney Disease (CKD) Exploratory Health Data Analysis
+# Chronic Kidney Disease (CKD) Exploratory Health Data Analysis
 
-Overview
+## Overview
 
 This project presents an exploratory analysis of a publicly available Chronic Kidney Disease (CKD) dataset using Microsoft Excel.
 
@@ -8,44 +8,44 @@ The project focuses on understanding the structure of the dataset, preparing the
 
 This project was developed as a learning project at the intersection of healthcare and data analysis.
 
-Objectives
+## Objectives
 
 - Explore a public CKD dataset and understand its variables.
-- Identify and handle missing or inconsistent values.
-- Organize the data into a format suitable for analysis.
-- Perform descriptive and exploratory analysis using Excel.
+- Identify and review missing or inconsistent values.
+- Prepare the data for exploratory analysis.
+- Perform descriptive and exploratory analysis using Microsoft Excel.
 - Explore patterns across selected health-related variables.
-- Present the analysis through charts, PivotTables, and an interactive dashboard.
+- Present the analysis through charts, PivotTables, and an Excel dashboard.
 
-Dataset
+## Dataset
 
 The analysis uses the publicly available Chronic Kidney Disease dataset from the UCI Machine Learning Repository.
 
-- Records: 400
-- Variables: 24 features plus the classification label
-- Dataset type: Publicly available secondary data
-- Source: UCI Machine Learning Repository
+- **Records:** 400 instances
+- **Variables:** 24 features plus the classification label
+- **Dataset type:** Publicly available secondary data
+- **Source:** UCI Machine Learning Repository
 
-The dataset was not collected by me. It was used for educational and exploratory analysis purposes.
+The dataset was not collected by me. It was used for educational and exploratory data analysis purposes.
 
-Tools
+## Tools
 
 - Microsoft Excel
 - PivotTables
 - Excel Charts
 - Excel Dashboard
 
-Data Preparation
+## Data Preparation
 
 The dataset contains missing and inconsistent values. As part of the preparation process, I:
 
 - Reviewed the dataset structure and variables.
 - Identified missing values.
-- Standardized inconsistent categorical entries where appropriate.
+- Reviewed inconsistent categorical entries.
 - Prepared the data for exploratory analysis.
 - Documented the main data-cleaning decisions.
 
-Analysis
+## Analysis
 
 The analysis includes:
 
@@ -53,41 +53,60 @@ The analysis includes:
 - Comparison of variables across CKD classification groups.
 - PivotTable-based analysis.
 - Visualizations of selected health-related variables.
-- An interactive Excel dashboard.
+- An Excel dashboard summarizing selected findings.
 
-Key Findings
+## Key Findings
 
-The analysis revealed differences in several variables between records classified as CKD and those classified as not CKD.
+The exploratory analysis revealed differences in selected health-related variables between records classified as CKD and those classified as not CKD.
 
-The dashboard and Excel workbook provide the detailed calculations, comparisons, and visualizations used to explore these patterns.
+The Excel workbook contains the detailed calculations, PivotTables, comparisons, and visualizations used to explore these patterns.
 
-«The findings in this project describe patterns within this specific dataset and should not be interpreted as clinical conclusions.»
+> The findings in this project describe patterns within this specific dataset and should not be interpreted as clinical conclusions.
 
-Limitations
+## Limitations
 
 - The analysis is based on a publicly available dataset rather than data collected directly by me.
-- The dataset has missing and inconsistent values, which required data preparation.
+- The dataset contains missing and inconsistent values that required data preparation.
 - The analysis is exploratory and does not establish medical causation.
 - The results should not be used for diagnosis or clinical decision-making.
+- Findings from this dataset should not be generalized to all patients or populations.
 
-Files
+## Files
 
-"CKD_Exploratory_Health_Data_Analysis-6-1.xlsx"
+- `CKD_Exploratory_Health_Data_Analysis-6-1.xlsx`
+- `cleaning_log.jpg`
+- `dashboard.jpg`
 
 The Excel workbook contains the prepared data, analysis, PivotTables, visualizations, and dashboard.
 
-Learning Outcomes
+## Documentation
+
+### Data Cleaning
+
+The cleaning log documents the main data preparation and standardization steps applied during the analysis.
+
+![Data Cleaning Log](cleaning_log.jpg)
+
+### Dashboard
+
+The Excel dashboard summarizes selected findings from the exploratory analysis.
+
+![CKD Dashboard](dashboard.jpg)
+
+## Learning Outcomes
 
 Through this project, I practiced:
 
 - Working with healthcare-related datasets.
 - Data cleaning and preparation.
 - Exploratory data analysis.
-- Using Excel for data analysis.
+- Using Microsoft Excel for data analysis.
 - Creating PivotTables and visualizations.
+- Building a data dashboard.
 - Communicating data findings clearly.
+- Considering data limitations and responsible interpretation.
 
-Future Improvements
+## Future Improvements
 
 Possible future improvements include:
 
@@ -96,18 +115,6 @@ Possible future improvements include:
 - Reproducing selected analyses using Python or SQL.
 - Improving the dashboard and documentation.
 
-Disclaimer
+## Disclaimer
 
 This project is an educational exploratory analysis and is not a medical diagnostic tool or clinical decision-support system.
-
-## Data Cleaning
-
-The cleaning log documents the main data preparation and standardization steps applied during the analysis.
-
-![Data Cleaning Log](cleaning_log.jpg)
-
-## Dashboard
-
-The Excel dashboard summarizes selected findings from the exploratory analysis.
-
-![CKD Dashboard](dashboard.jpg)
