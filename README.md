@@ -99,3 +99,15 @@ Possible future improvements include:
 Disclaimer
 
 This project is an educational exploratory analysis and is not a medical diagnostic tool or clinical decision-support system.
+
+## Data Cleaning
+
+The cleaning log documents the main data preparation and standardization steps applied during the analysis.
+
+!Data Cleaning Log
+
+## Dashboard
+
+The Excel dashboard summarizes selected findings from the exploratory analysis.
+
+!CKD Dashboard
