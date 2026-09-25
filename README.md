@@ -1,2 +1,2 @@
-# Chronic-Kidney-Disease-CKD-Exploratory-Health-Data-Analysis
-Exploratory data analysis and health awareness resources for Chronic Kidney Disease (CKD).
+Designed and executed a comprehensive Exploratory Data Analysis (EDA) on a clinical dataset of 400 patient records across 25 medical variables (including blood pressure, blood glucose, and serum creatinine).
+​Cleaned raw data, handled missing values, systematically documented a Cleaning Log, constructed a detailed Data Dictionary, and built an Interactive Excel Dashboard to evaluate key clinical differences between patient groups
