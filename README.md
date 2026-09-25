@@ -104,10 +104,10 @@ This project is an educational exploratory analysis and is not a medical diagnos
 
 The cleaning log documents the main data preparation and standardization steps applied during the analysis.
 
-!Data Cleaning Log
+![Data Cleaning Log](cleaning_log.jpg)
 
 ## Dashboard
 
 The Excel dashboard summarizes selected findings from the exploratory analysis.
 
-!CKD Dashboard
+![CKD Dashboard](dashboard.jpg)
